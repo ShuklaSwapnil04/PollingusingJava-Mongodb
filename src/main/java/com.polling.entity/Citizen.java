@@ -21,6 +21,10 @@ public class Citizen {
 		this.id = id;
 	}
 	
+	public Citizen() {
+		super();
+	}
+
 	@Column(name="citizen_name")
 	private String name;
 

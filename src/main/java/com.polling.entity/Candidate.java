@@ -21,6 +21,10 @@ public class Candidate {
 		this.id = id;
 	}
 	
+	public Candidate() {
+		super();
+	}
+
 	@Column(name="candidate_name")
 	private String name;
 
